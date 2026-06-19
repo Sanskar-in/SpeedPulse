@@ -1,0 +1,43 @@
+# Made by Sanskar
+# © 2026 Copyright Sanskar. All rights reserved.
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+
+# ASP.NET Core
+bin/
+obj/
+Properties/launchSettings.json
+appsettings.Development.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+main-files/bundle.js
+main-files/bundle-dev.js
+main-files/bundle.js.map
+main-files/bundle-dev.js.map
+dist/
+build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary generated scripts
+expand-dev-html.js
+inject-advanced-features.js
+inject-doomsday.js
+inject-global-ui.js
+inject-latency-ts.js
+inject-logo-and-features.js
