@@ -1,6 +1,6 @@
 # SpeedPulse Premium Internet Speed Checker 🚀
 
-![SpeedPulse](wwwroot/favicon.png)
+![SpeedPulse](main-files/favicon.png)
 
 ## Table of Contents
 1. Introduction
