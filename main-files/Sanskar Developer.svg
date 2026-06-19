@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <defs>
+    <linearGradient id="sanskar-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <rect width="300" height="80" rx="15" fill="#0f172a" stroke="url(#sanskar-gradient)" stroke-width="2" />
+  
+  <g transform="translate(20, 20)">
+    <!-- Tech Logo Icon -->
+    <path d="M20 0 L40 10 L40 30 L20 40 L0 30 L0 10 Z" fill="none" stroke="url(#sanskar-gradient)" stroke-width="3" filter="url(#glow)"/>
+    <circle cx="20" cy="20" r="6" fill="#0ea5e9" filter="url(#glow)"/>
+    <path d="M20 0 L20 20 M0 10 L20 20 M40 10 L20 20" stroke="url(#sanskar-gradient)" stroke-width="2"/>
+  </g>
+  
+  <g transform="translate(75, 45)">
+    <text font-family="'Inter', 'Segoe UI', sans-serif" font-weight="800" font-size="22" fill="#ffffff" letter-spacing="1">
+      SANSKAR
+    </text>
+    <text font-family="'Inter', 'Segoe UI', sans-serif" font-weight="400" font-size="22" fill="#cbd5e1" x="110" letter-spacing="1">
+      DEVELOPER
+    </text>
+    <text font-family="'JetBrains Mono', monospace" font-size="10" fill="#38bdf8" y="20" letter-spacing="2">
+      ENGINEERING EXCELLENCE
+    </text>
+  </g>
+</svg>
